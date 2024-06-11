@@ -1,35 +1,33 @@
-# SourceTreeCustomActions
+# SourceTree Custom Actions
 Custom actions for use in SourceTree
 
-## How to use.
-For some reason th first paramater is ignored, so I am using it to pass the repo path. The second parameter $0 in the batch file.
 
 ### For Rebase Interactive
-Menu captions : Reabse Interactive
-Run command silently is selected
-Script to run : D:\Harry_Code\GitHub\SourceTreeCustomActions\Actions\RebeaseInteractive.bat
+Menu captions : Rebase Interactive<br>
+Run command silently : Checked<br>
+Script to run : {absolute path}\SourceTreeCustomActions\Actions\RebeaseInteractive.bat<br>
 Parameters : $REPO $SHA
 
 
 ### For Submodule Update
-Menu captions : Submodule Update
-Run command silently is selected
-Script to run : D:\Harry_Code\GitHub\SourceTreeCustomActions\Actions\Submodule_Update.bat
+Menu captions : Submodule Update<br>
+Run command silently : Checked<br>
+Script to run : {absolute path}\SourceTreeCustomActions\Actions\Submodule_Update.bat<br>
 Parameters : $REPO $SHA
 
 
 ### For Open in Explorer
-Menu captions : Open in Explorer
-Run command silently is selected
-Script to run : D:\Harry_Code\GitHub\SourceTreeCustomActions\Actions\OpenInExplorer.bat
-Parameters : $REPO $FILE
+Menu captions : Open in Explorer<br>
+Run command silently : Checked<br>
+Script to run : {absolute path}\SourceTreeCustomActions\Actions\OpenInExplorer.bat<br>
+Parameters : $REPO $FILE<br>
 
 ### For Testing purposes
-Menu captions : Test:File
-Show Full Output is selected
-Run command silently is selected
-Script to run : D:\Harry_Code\GitHub\SourceTreeCustomActions\Actions\Test.bat
-Parameters : $REPO $FILE
+Menu captions : Test:File<br>
+Show Full Output is selected<br>
+Run command silently : Checked<br>
+Script to run : {absolute path}\SourceTreeCustomActions\Actions\Test.bat<br>
+Parameters : $REPO $FILE $SHA $BRANCH
 
 
 
